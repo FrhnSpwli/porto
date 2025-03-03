@@ -1,22 +1,17 @@
-import { FaAngular, FaReact, FaPython, FaGitAlt } from "react-icons/fa";
-import {
-  SiTypescript,
-  SiCsharp,
-  SiMongodb,
-  SiTailwindcss,
-} from "react-icons/si";
-import { BiLogoPostgresql } from "react-icons/bi";
-import { DiDotnet } from "react-icons/di";
+import { FaPhp, FaJs, FaHtml5, FaCss3Alt, FaGitAlt, FaCloud } from "react-icons/fa";
+import { SiMysql, SiTailwindcss, SiFirebase, SiGooglecloud } from "react-icons/si";
+import { DiLaravel } from "react-icons/di";
 
 export const skillsConfig = [
+  { icon: FaPhp, label: "PHP" },
+  { icon: FaJs, label: "JavaScript" },
+  { icon: FaHtml5, label: "HTML5" },
+  { icon: FaCss3Alt, label: "CSS3" },
   { icon: FaGitAlt, label: "Git" },
-  { icon: SiTypescript, label: "Typescript" },
-  { icon: FaPython, label: "Python" },
-  { icon: DiDotnet, label: ".NET" },
-  { icon: FaAngular, label: "Angular" },
-  { icon: FaReact, label: "React" },
-  { icon: BiLogoPostgresql, label: "PostgreSQL" },
-  { icon: SiCsharp, label: "C#" },
+  { icon: SiMysql, label: "MySQL" },
   { icon: SiTailwindcss, label: "Tailwind CSS" },
-  { icon: SiMongodb, label: "MongoDB" },
+  { icon: DiLaravel, label: "Laravel" },
+  { icon: SiFirebase, label: "Firebase" },
+  { icon: FaCloud, label: "Cloud Computing" },
+  { icon: SiGooglecloud, label: "Google Cloud Platform" },
 ];

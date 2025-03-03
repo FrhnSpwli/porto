@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
 import { ThemeModeScript } from "flowbite-react";
@@ -6,27 +5,6 @@ import "./globals.css";
 import { Sora } from "next/font/google";
 
 const sora = Sora({ subsets: ["latin"] });
-
-export const metadata = {
-  title: "Justin Osagie Portfolio",
-  description:
-    "Portfolio of Justin Osagie, a full-stack developer based in Florida.",
-  openGraph: {
-    title: "Justin Osagie Portfolio",
-    description:
-      "Portfolio of Justin Osagie, a full-stack developer based in Florida.",
-    url: "https://justinosagie.com",
-    siteName: "Justin Osagie Portfolio",
-    images: [
-      {
-        url: "logo/jo_logo.svg",
-        width: 1200,
-        height: 630,
-        alt: "Justin Osagie's Logo",
-      },
-    ],
-  },
-};
 
 export default function RootLayout({
   children,

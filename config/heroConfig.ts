@@ -1,11 +1,11 @@
 export const heroConfig = {
   hero: {
-    name: "Firstname Lastname",
+    name: "Andi Farhan Sappewali",
     primaryRole: "Frontend",
     secondaryRole: "Developer",
-    location: "Location",
-    description: `I’m [Your Name], a [Your Primary Role] passionate about crafting scalable web applications and robust backend systems. With expertise in [Technologies], I transform complex challenges into elegant solutions. Beyond coding, I enjoy [Hobbies/Interests]. Let’s create something extraordinary together!`,
-    resumeLink: "/resume/resume_Justin_Osagie.pdf",
+    location: "Makassar",
+    description: `I’m Andi Farhan Sappewali, a Frontend Developer with expertise in PHP, JavaScript, and cloud deployment. I build scalable web apps, integrate APIs, and enhance user experiences. Passionate about technology and mentoring, I thrive on creating impactful digital solutions.`,
+    resumeLink: "/resume/Andi_Farhan_Sappewali.pdf",
     heroImage: "/heroSection/heroImageLarge.svg",
   },
 };

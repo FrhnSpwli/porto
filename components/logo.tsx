@@ -14,7 +14,7 @@ const Logo: React.FC = () => {
       />
       {/* Text */}
       <span className="text-lg font-bold text-zinc-800 dark:text-primary-white">
-        Templato
+        Sappewali
       </span>
     </div>
   );

@@ -25,8 +25,8 @@ const Navbar = () => {
         <div className="flex space-x-3 md:order-2 md:space-x-0 rtl:space-x-reverse">
           {/* Resume Button */}
           <a
-            href="/resume/resume_Justin_Osagie.pdf"
-            download="Justin-Osagie-Resume.pdf"
+            href="/resume/Andi_Farhan_Sappewali.pdf"
+            download="Andi-Farhan-Sappewali-Resume.pdf"
           >
             <Button size={"medium"} variant={"default"}>
               <span className="mr-2">Resume</span>
