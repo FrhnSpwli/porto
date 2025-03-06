@@ -6,6 +6,26 @@ import { Sora } from "next/font/google";
 
 const sora = Sora({ subsets: ["latin"] });
 
+export const metadata = {
+  title: "Porto Sappe",
+  description:
+    "Portfolio of Andi Farhan Sappewali, a full-stack developer based in Makassar.",
+  openGraph: {
+    title: "Porto Sappe",
+    description:
+      "Portfolio of Andi Farhan Sappewali, a full-stack developer based in Makassar.",
+    siteName: "Andi Farhan Sappewali's Portfolio",
+    images: [
+      {
+        url: "logo/jo_logo.svg",
+        width: 1200,
+        height: 630,
+        alt: "Andi Farhan Sappewali's Logo",
+      },
+    ],
+  },
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
